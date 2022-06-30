@@ -16,10 +16,11 @@ Every minute, at least 15 tonnes of plastic waste leak into the ocean. How to re
 TACO is an open image dataset of waste in the wild. It contains photos of garbage taken in various environments.
 
 Dataset Overview:
-1500 images
-4784 annotations
-60 sub-categories & 28 super-categories
+- 1500 images
+- 4784 annotations
+- 60 sub-categories & 28 super-categories
 
+![Image](https://github.com/Ming2010/garbage-classification/blob/main/img/dataset_preview.png)
 
 # Model
 

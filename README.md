@@ -40,6 +40,10 @@ MobileNetV2 is a small, low-latency, low-power model parameterized to meet the r
 
 We fine-tuned the MobileNetV2 to perform both boundary detection and garbage classfication on our data.
 
+- ViT
+
+The model is based on the ViT model, which is short for the Vision Transformer. It was introduced in the paper An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale, which was introduced in June 2021 by a team of researchers at Google Brain. 
+
 # Result
 
 Our models are able to detect the garbage from different environments and classify the garbage. However, some of the categories do not exist in pre-built model, so we did a mapping to make it fit. Plus, our model is slow, so it was hard to tune hyperparameters. To improve, we may think about including more garbage class types, performing more accurate boundary detection, and do some model-level improvement.

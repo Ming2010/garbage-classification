@@ -22,7 +22,11 @@ Dataset Overview:
 
 ![Image](https://github.com/Ming2010/garbage-classification/blob/main/img/dataset_preview.png)
 
+
 # Model
+
+- Resnet-50
+- MobileNetV2
 
 
 # Result

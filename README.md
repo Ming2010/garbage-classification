@@ -21,7 +21,7 @@ Dataset Overview:
 - 60 sub-categories & 28 super-categories
 
 | Dataset Overview  | data by category | data by super category |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | ![Image](https://github.com/Ming2010/garbage-classification/blob/main/img/dataset_preview.png)  | ![Image](https://github.com/Ming2010/garbage-classification/blob/main/img/data_by_cat.png)  | ![Image](https://github.com/Ming2010/garbage-classification/blob/main/img/data_by_supcat.png)
 
 # Model

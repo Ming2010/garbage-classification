@@ -21,6 +21,8 @@ Dataset Overview:
 - 60 sub-categories & 28 super-categories
 
 ![Image](https://github.com/Ming2010/garbage-classification/blob/main/img/dataset_preview.png)
+![Image](https://github.com/Ming2010/garbage-classification/blob/main/img/data_by_cat.png)
+![Image](https://github.com/Ming2010/garbage-classification/blob/main/img/data_by_supcat.png)
 
 
 # Model
@@ -40,3 +42,7 @@ We fine-tuned the pre-trained RetinaNet on our garbage dataset.
 # Result
 
 Due to the training speed, we were not able to try out different hyperparameters.
+
+# References
+
+dataset: http://tacodataset.org/

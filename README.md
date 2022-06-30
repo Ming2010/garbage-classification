@@ -26,21 +26,24 @@ Dataset Overview:
 
 # Model
 
-We tried both MoblieNetV2 and RetinaNet as our models.
-
-- MobileNetV2
-
-MobileNetV2 is a small, low-latency, low-power model parameterized to meet the resource constraints of a variety of use cases (mobile phone, for example). It can be built upon for classification, detection, embedding and segmentation similar to how other popular large scale models.
+We tried both RetinaNet and MoblieNetV2 as our models.
 
 - RetinaNet
 
 RetinaNet is one of the best one-stage object detection models that has proven to work well with dense and small scale objects.
 
-We fine-tuned the pre-trained RetinaNet on our garbage dataset.
+We fine-tuned the pre-trained RetinaNet to perform the boundary detection on our data.
+
+- MobileNetV2
+
+MobileNetV2 is a small, low-latency, low-power model parameterized to meet the resource constraints of a variety of use cases (mobile phone, for example). It can be built upon for classification, detection, embedding and segmentation similar to how other popular large scale models.
+
+We fine-tuned the MobileNetV2 to perform both boundary detection and garbage classfication on our data.
 
 # Result
 
-Due to the training speed, we were not able to try out different hyperparameters.
+Our models are able to detect the garbage from different environments and classify the garbage. However, some of the categories do not exist in pre-built model, so we did a mapping to make it fit. Plus, our model is slow, so it was hard to tune hyperparameters. To improve, we may think about including more garbage class types, performing more accurate boundary detection, and do some model-level improvement.
+
 
 # References
 

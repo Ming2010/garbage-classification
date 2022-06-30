@@ -25,8 +25,18 @@ Dataset Overview:
 
 # Model
 
-- Resnet-50
+We tried both MoblieNetV2 and RetinaNet as our models.
+
 - MobileNetV2
 
+MobileNetV2 is a small, low-latency, low-power model parameterized to meet the resource constraints of a variety of use cases (mobile phone, for example). It can be built upon for classification, detection, embedding and segmentation similar to how other popular large scale models.
+
+- RetinaNet
+
+RetinaNet is one of the best one-stage object detection models that has proven to work well with dense and small scale objects.
+
+We fine-tuned the pre-trained RetinaNet on our garbage dataset.
 
 # Result
+
+Due to the training speed, we were not able to try out different hyperparameters.
